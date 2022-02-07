@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        table {
+            width: 30rem;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <td>id</td>
+                <td>Nama</td>
+                <td>Tanggal Lahir</td>
+            </tr>
+            <tr>
+                <td>
+                    <%= data[0].id %>
+                </td>
+                <td>
+                    <%= data[0].nama %>
+                </td>
+                <td>
+                    <%= data[0].tgl_lahir %>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
